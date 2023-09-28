@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./top-menu.component.scss']
 })
 export class TopMenuComponent {
-
+  readonly menuList: Array<string> = ["Help", "Exchange & Returns", "Order Tracker", "SignUp / Login"];
 }
